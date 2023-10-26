@@ -7,7 +7,7 @@ import {
 } from "@mui/material";
 
 const MainSection = () => {
-  const title = "Vos queres crecer.\n Nosotros te queremos ayudar";
+  const title = "Vos queres crecer.\n ";
   const subtitle =
     "Crea una web con plantillas impecables, fácil edición y sin codificación.";
   const sm = useMediaQuery("min-width(600px)");
@@ -76,7 +76,7 @@ const MainSection = () => {
             sm: "left",
           }}
         >
-          <Button variant="contained">Comienza a crear</Button>
+          <Button variant="contained">SIGUIENTE</Button>
         </Box>
 
         <Box
