@@ -8,7 +8,7 @@ import {
 
 const MainSection = () => {
   const subtitle =
-    "Crea una web con plantillas impecables, fácil edición y sin codificación.";
+    "¡Usar Roomsite es realmente sencillo!. Sigue estos tips para que tu experiencia sea realmente sensacional.";
   const sm = useMediaQuery("min-width(600px)");
 
   return (
@@ -46,7 +46,7 @@ const MainSection = () => {
             xs: "center",
           }}
         >
-          <Typography variant="h5">{subtitle}</Typography>
+          <Typography variant="h6">{subtitle}</Typography>
         </Box>
         <Box
           gridArea={"btn"}
@@ -66,7 +66,6 @@ const MainSection = () => {
         <Box
           gridArea={"img"}
           sx={{
-            backgroundImage: `url("https://picsum.photos/1200/800")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
