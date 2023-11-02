@@ -7,7 +7,6 @@ import {
 } from "@mui/material";
 
 const MainSection = () => {
-  const title = "Vos queres crece.\n ";
   const subtitle =
     "Crea una web con plantillas impecables, fácil edición y sin codificación.";
   const sm = useMediaQuery("min-width(600px)");
@@ -37,21 +36,6 @@ const MainSection = () => {
           xs: "92vh",
         }}
       >
-        <Box
-          gridArea={"title"}
-          alignSelf={{
-            xs: "end",
-            sm: "end",
-          }}
-          textAlign={{
-            xs: "center",
-            sm: "left",
-          }}
-        >
-          <Typography variant={sm ? "h2" : "h3"} fontWeight="bold">
-            {title}
-          </Typography>
-        </Box>
         <Box
           textAlign={{
             xs: "center",
@@ -88,7 +72,8 @@ const MainSection = () => {
             backgroundRepeat: "no-repeat",
           }}
         />
-      </Box>
+     <img src="https://media.gettyimages.com/id/1765124116/es/vector/icono-de-dise%C3%B1o-de-interiores-solid-style-elemento-de-dise%C3%B1o-de-icono-vectorial-para-p%C3%A1gina.jpg?s=612x612&w=0&k=20&c=7WmYxSP7Nb8jjqpq3ccv2uAV5GAJcvXSonRLYAUBf0w=" />      
+ </Box>
     </Container>
   );
 };
