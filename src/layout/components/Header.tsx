@@ -15,23 +15,13 @@ const linksLeft = [
     href: "/plantillas",
     icon: <Web />,
   },
-  {
-    label: "Planes",
-    href: "/planes",
-    icon: <MonetizationOn />,
-  },
 ];
 
 const linksRight = [
   {
-    label: "Iniciar sesión",
+    label: "Cambiar Cuenta",
     href: "/login",
     icon: <Login />,
-  },
-  {
-    label: "Registrarse",
-    href: "/register",
-    icon: <AppRegistration />,
   },
 ];
 
